@@ -140,6 +140,10 @@
 
 }
 
+.cover__description-text:hover {
+  color: rgb(f f f / .5)
+}
+
 .word-spacing {
   word-spacing: 17px;
 }
@@ -159,5 +163,15 @@
   margin-right: 50px;
   margin-top: -14px;
   padding: 11.5px 31.5px;
+  cursor: pointer;
+}
+
+.bet-button:hover {
+  position: relative;
+  z-index: 2 ;
+  color:rgba(0 0 0);
+  border: 1px solid #000;
+  box-shadow: 2px 2px 5px;
+  background-color: #fff;
 }
 
