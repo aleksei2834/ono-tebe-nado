@@ -69,3 +69,95 @@
 .address__item-none-underline {
   border-bottom: none;
 }
+
+.cover {
+  position: relative;
+  background-image: url("../images/cover.jpg");
+  background-size: cover;
+  background-position: -137px;
+  min-height: 757px;
+  width: 1100px;
+}
+
+.overlay {
+  background-color: rgba(0 0 0 / .6);
+  position: absolute;
+  z-index: 0;
+  inset: 0;
+} 
+
+.cover__title {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  font-size: 100px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+}
+
+.aligned-text {
+  display: block;
+}
+
+.aligned-text-left {
+  margin-left: 50px;
+  padding-top: 165px;
+}
+
+.aligned-text-center {
+  text-align: center;
+  padding-top: 9px;
+  padding-left: 2px;
+}
+
+.aligned-text-right {
+  text-align: right;
+  padding-top: 4px;
+  padding-right: 20px;
+
+}
+
+.letter-spacing {
+  letter-spacing: 0.6em;
+}
+
+.cover__description {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  font-size: 22px;
+  text-transform: uppercase;
+  margin-top: 140px;
+}
+
+.cover__description-text {
+  font-weight: 400;
+  margin-left:  78px;
+  word-spacing: 20px;
+
+}
+
+.word-spacing {
+  word-spacing: 17px;
+}
+
+.word-spacing-accent {
+  word-spacing: 18px;
+}
+
+.bet-button {
+  font-family: 'Raleway', sans-serif;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 500;
+  background: transparent;
+  border: 1px solid #fff;
+  text-transform: uppercase;
+  margin-right: 50px;
+  margin-top: -14px;
+  padding: 11.5px 31.5px;
+}
+
